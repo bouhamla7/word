@@ -20,24 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-if (isset($_ENV['DATABASE'])) {
-  define( 'DB_NAME', $_ENV['DATABASE'] );
-}
+define( 'DB_NAME', 'defaultdb' );
 
 /** Database username */
-if (isset($_ENV['USERNAME'])) {
-  define( 'DB_USER', $_ENV['USERNAME'] );
-}
+define( 'DB_USER', 'avnadmin' );
 
 /** Database password */
-if (isset($_ENV['PASSWORD'])) {
-  define( 'DB_PASSWORD', $_ENV['PASSWORD'] );
-}
+define( 'DB_PASSWORD', 'AVNS_lsyI7jRuKjRuv2_Zf0X' );
 
 /** Database hostname */
-if (isset($_ENV['HOST'])) {
-  define( 'DB_HOST', $_ENV['HOST'] );
-}
+define( 'DB_HOST', 'mysql-79deb45-emir7koz-0987.i.aivencloud.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
